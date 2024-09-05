@@ -1,0 +1,42 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background: gray;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    border-radius: 15px;
+    padding: 10px;
+    width: 200px;
+    height: 400px;
+    margin: 20px;
+    color: black;
+    background:rgb(213, 211, 211);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+article img {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;
+    padding: 5px;
+    margin-top: 10px;
+    transition: 0.7s;
+}
+
+article a:hover {
+    background: whitesmoke;
+    color: #333333;
+}
